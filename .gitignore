@@ -1,0 +1,65 @@
+# macOS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+.idea/
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+*.xcuserdata
+
+# Swift Package Manager
+/.build/
+*.resolved
+Package.pins
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/*.lock
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Other
+*.moved-aside
+*.swp
+*.orig
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Xcode's indexing
+.vscode/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# Temporary Xcode projects
+*.swiftpm/xcode/*
+
+# Bundle artifacts
+*.ipa
+*.app
+
+# Code coverage
+*.profdata
